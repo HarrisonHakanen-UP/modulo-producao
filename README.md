@@ -25,3 +25,17 @@ This app was originally generated on Sat Jun 23 2018 20:01:50 GMT-0300 (E. South
 Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
 -->
 
+
+  <b>*Rotas Publicas*</b><br>
+  'GET localhost:1337/historicotransacoes/ordens/:tipo'<br>
+  'GET localhost:1337/produto/bandeira/:bandeira'<br>
+  'GET localhost:1337/historicotransacoes/ordens/'<br>
+  'GET localhost:1337/local/list/:local'<br>
+  'GET localhost:1337/faturaMateriais/'<br>
+  'GET localhost:1337/motivoSucata/'<br>
+<br>
+  <b>*Rotas Privadas*</b><br>
+  'POST localhost:1337/motivoSucata/:motivo'<br>
+  'POST localhost:1337/local/:local/'<br>
+  'DELETE localhost:1337/local/:local/'<br>
+  'DELETE localhost:1337/motivoSucata/:Idmotivo'<br>
