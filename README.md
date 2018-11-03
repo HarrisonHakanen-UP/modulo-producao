@@ -1,9 +1,6 @@
 # modulo-producao
 
-Aplicação em Sails JS (https://sailsjs.com)
-
-
-### Rotas Publicas
+### Rotas públicas
 - GET http://localhost:1337/historicotransacoes/ordens/:tipo
 - GET http://localhost:1337/produto/bandeira/:bandeira
 - GET http://localhost:1337/historicotransacoes/ordens/
@@ -11,14 +8,16 @@ Aplicação em Sails JS (https://sailsjs.com)
 - GET http://localhost:1337/faturaMateriais/
 - GET http://localhost:1337/motivoSucata/
 
-### Rotas Privadas
+### Rotas privadas
 - POST http://localhost:1337/motivoSucata/:motivo
 - POST http://localhost:1337/local/:local/
 - DELETE http://localhost:1337/local/:local/
 - DELETE http://localhost:1337/motivoSucata/:Idmotivo
 
+## Observação
+Aplicação em Sails JS (https://sailsjs.com)
 
-### Links
+### Links da documentação - SailsJS
 
 - [Get started](https://sailsjs.com/get-started)
 - [Sails framework documentation](https://sailsjs.com/documentation)
