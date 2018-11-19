@@ -50,6 +50,6 @@ module.exports.datastores = {
     ***************************************************************************/
 
    adapter: 'sails-mysql',
-   url: 'mysql://root:root@localhost:3306/adventureworks',
+   url: 'mysql://root:root@mysql-adventure-works:3306/modulo_producao',
   },
 };
